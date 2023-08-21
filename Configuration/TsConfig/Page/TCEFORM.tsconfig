@@ -1,0 +1,15 @@
+// TCEFORM {
+//     tt_content {
+//         # cType tables:
+//         table_class {
+//            types {
+//                 table {
+//                     addItems {
+//                         # If we need to ad more table styles:
+//                         classname = Some label
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
