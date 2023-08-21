@@ -2,47 +2,21 @@
 #### NEW CONTENT ELEMENT WIZARD ####
 ####################################
 
-mod.wizards.newContentElement.wizardItems.text {
+mod.wizards.newContentElement.wizardItems.special {
     elements {
-        ucph_ce_tables {
+        table {
             iconIdentifier = ucph-ce-tables-icon
             title = LLL:EXT:ucph_ce_tables/Resources/Private/Language/locallang_be.xlf:ucph_ce_table_title
             description = LLL:EXT:ucph_ce_tables/Resources/Private/Language/locallang_be.xlf:ucph_ce_table_desc
             tt_content_defValues {
-                CType = ucph_ce_tables
+                CType = table
+                // Set default table header position
+                table_header_position = 1
             }
         }
     }
-    show := addToList(ucph_ce_tables)
+    show := addToList(table)
 }
 
-// Set default table header position
-// mod.wizards.newContentElement.wizardItems.common {
-//     elements {
-//         table {
-//             tt_content_defValues {
-//                 table_header_position = 1
-//             }
-//         }
-//     }
-// }
-
-// mod.wizards.newContentElement.wizardItems.data {
-//     elements {
-//         table {
-//             tt_content_defValues {
-//                 table_header_position = 1
-//             }
-//         }
-//     }
-// }
-
-// mod.wizards.newContentElement.wizardItems.text {
-//     elements {
-//         table {
-//             tt_content_defValues {
-//                 table_header_position = 1
-//             }
-//         }
-//     }
-// }
+// Hide default table content element on "Common" tab
+mod.wizards.newContentElement.wizardItems.common.elements.table >

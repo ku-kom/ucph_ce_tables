@@ -6,7 +6,7 @@ defined('TYPO3') or die('Access denied.');
  * Extend core tables TCA with checkbox to enable datatables.
  */
 
-call_user_func(function ($extKey ='ucph_ce_tables', $contentType ='ucph_ce_tables') {
+call_user_func(function ($extKey ='ucph_ce_tables', $contentType ='table') {
     // Add Content Element
     if (!is_array($GLOBALS['TCA']['tt_content']['types'][$contentType] ?? false)) {
         $GLOBALS['TCA']['tt_content']['types'][$contentType] = [];
@@ -18,6 +18,7 @@ call_user_func(function ($extKey ='ucph_ce_tables', $contentType ='ucph_ce_table
         'Configuration/TsConfig/Page/ucph_ce_tables.tsconfig',
         'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:ucph_ce_table_title'
     );
+    
 
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tt_content', [
         // Add datatables checkbox element to enable datatables
