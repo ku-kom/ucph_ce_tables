@@ -15,8 +15,8 @@ defined('TYPO3') || die();
 
 return [
     // icon identifier
-    'ku-tables-icon' => [
+    'ucph-ce-tables-icon' => [
         'provider' => \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-        'source' => 'EXT:ucph_ce_tables/Resources/Public/Icons/Extension.svg',
+        'source' => 'EXT:ucph_ce_tables/Resources/Public/Icons/content-table.svg',
     ],
 ];

@@ -4,8 +4,11 @@
         <header>
         </header>
         <body>
-        <trans-unit id="title" xml:space="preserve">
-            <source>KU tables</source>
+        <trans-unit id="ucph_ce_table_title" xml:space="preserve">
+            <source>Table</source>
+        </trans-unit>
+        <trans-unit id="ucph_ce_table_desc" xml:space="preserve">
+            <source>A simple table.</source>
         </trans-unit>
         <trans-unit id="tablelayout.hover" xml:space="preserve">
             <source>Hover</source>
