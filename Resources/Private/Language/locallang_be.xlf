@@ -34,6 +34,9 @@
         <trans-unit id="table_hover" xml:space="preserve">
             <source>Hover</source>
         </trans-unit>
+        <trans-unit id="table_condensed" xml:space="preserve">
+            <source>Condensed</source>
+        </trans-unit>
         </body>
     </file>
 </xliff>

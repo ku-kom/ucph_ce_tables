@@ -7,6 +7,7 @@ TCEFORM {
                     addItems {
                         # More table styles:
                         hover = LLL:EXT:ucph_ce_tables/Resources/Private/Language/locallang_be.xlf:table_hover
+                        condensed = LLL:EXT:ucph_ce_tables/Resources/Private/Language/locallang_be.xlf:table_condensed
                     }
                 }
             }
