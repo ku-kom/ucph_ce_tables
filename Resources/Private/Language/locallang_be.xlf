@@ -31,6 +31,9 @@
         <trans-unit id="column_sort_desc" xml:space="preserve">
             <source>Descending</source>
         </trans-unit>
+        <trans-unit id="table_hover" xml:space="preserve">
+            <source>Hover</source>
+        </trans-unit>
         </body>
     </file>
 </xliff>

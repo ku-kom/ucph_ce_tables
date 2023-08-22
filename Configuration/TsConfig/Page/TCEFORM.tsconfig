@@ -1,15 +1,15 @@
-// TCEFORM {
-//     tt_content {
-//         # cType tables:
-//         table_class {
-//            types {
-//                 table {
-//                     addItems {
-//                         # If we need to ad more table styles:
-//                         classname = Some label
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
+TCEFORM {
+    tt_content {
+        # cType tables:
+        table_class {
+           types {
+                table {
+                    addItems {
+                        # More table styles:
+                        hover = LLL:EXT:ucph_ce_tables/Resources/Private/Language/locallang_be.xlf:table_hover
+                    }
+                }
+            }
+        }
+    }
+}
