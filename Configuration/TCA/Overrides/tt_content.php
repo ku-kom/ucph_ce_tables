@@ -94,6 +94,16 @@ call_user_func(function ($extKey ='ucph_ce_tables', $contentType ='table') {
         ],
     ]);
 
+    // Add more table classes
+    $GLOBALS['TCA']['tt_content']['columns']['table_class']['config']['items'][] = [
+        'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:table_hover',
+        'hover'
+    ];
+    $GLOBALS['TCA']['tt_content']['columns']['table_class']['config']['items'][] = [
+        'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:table_condensed',
+        'condensed'
+    ];
+
     // Add checkbox to existing tables palette
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addFieldsToPalette(
         'tt_content',
