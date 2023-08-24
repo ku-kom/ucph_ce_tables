@@ -12,17 +12,17 @@ tt_content.table {
     templateName = Table
 
     templateRootPaths {
-        10 = EXT:ucph_ce_tables/Resources/Private/Templates/
-        20 = {$ucph_ce_tables.templates.templateRootPath}
+        10 = EXT:ucph_content_tables/Resources/Private/Templates/
+        20 = {$ucph_content_tables.templates.templateRootPath}
     }
 	partialRootPaths {
-		10 = EXT:ucph_ce_tables/Resources/Private/Partials/
-        20 = {$ucph_ce_tables.templates.partialRootPath}
+		10 = EXT:ucph_content_tables/Resources/Private/Partials/
+        20 = {$ucph_content_tables.templates.partialRootPath}
 	}
 
     layoutRootPaths {
-        10 = EXT:ucph_ce_tables/Resources/Private/Layouts/
-        20 = {$ucph_ce_tables.templates.layoutRootPath}
+        10 = EXT:ucph_content_tables/Resources/Private/Layouts/
+        20 = {$ucph_content_tables.templates.layoutRootPath}
     }
 
     ##########################
@@ -48,20 +48,20 @@ tt_content.table {
 ##########################
 #### OPTION TO ADD CSS ###
 ##########################
-ucph_ce_tables.pagecss = TEXT
-ucph_ce_tables.pagecss.value = {$ucph_ce_tables.assets.Css}
+ucph_content_tables.pagecss = TEXT
+ucph_content_tables.pagecss.value = {$ucph_content_tables.assets.Css}
 htmlSanitize = 1
 
 ##########################
 #### OPTION TO ADD JS ####
 ##########################
-ucph_ce_tables.pagejs = TEXT
-ucph_ce_tables.pagejs.value = {$ucph_ce_tables.assets.Js}
+ucph_content_tables.pagejs = TEXT
+ucph_content_tables.pagejs.value = {$ucph_content_tables.assets.Js}
 htmlSanitize = 1
 
 ##################################################
 #### OPTION TO ADD DATATABLES LANGUAGE FILE PATH #
 ##################################################
-ucph_ce_tables.datatableLangFilePath = TEXT
-ucph_ce_tables.datatableLangFilePath.value = {$ucph_ce_tables.assets.datatableLangFilePath}
+ucph_content_tables.datatableLangFilePath = TEXT
+ucph_content_tables.datatableLangFilePath.value = {$ucph_content_tables.assets.datatableLangFilePath}
 htmlSanitize = 1

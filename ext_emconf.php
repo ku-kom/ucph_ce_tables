@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the package ucph_ce_tables.
+ * This file is part of the package ucph_content_tables.
  * For the full copyright and license information, please read the
  * LICENSE file that was distributed with this source code.
  */
@@ -18,7 +18,7 @@ $EM_CONF[$_EXTKEY] = [
     ],
     'autoload' => [
         'psr-4' => [
-            'UniversityOfCopenhagen\\UcphCeTables\\' => 'Classes',
+            'UniversityOfCopenhagen\\UcphContentTables\\' => 'Classes',
         ],
     ],
     'state' => 'stable',

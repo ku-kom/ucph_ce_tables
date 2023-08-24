@@ -6,10 +6,10 @@ call_user_func(function () {
     /**
      * Temporary variables
      */
-    $extensionKey = 'ucph_ce_tables';
+    $extensionKey = 'ucph_content_tables';
 
     /**
-     * Default TypoScript for ucph_ce_tables
+     * Default TypoScript for ucph_content_tables
      */
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         $extensionKey,

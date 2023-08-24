@@ -2,7 +2,7 @@
 
 (function() {
 
-    CKEDITOR.plugins.add('ucph_ce_tables', {
+    CKEDITOR.plugins.add('ucph_content_tables', {
         init: function(editor) {
             editor.on('removeFormatCleanup', function(event) {
                 var element = event.data;

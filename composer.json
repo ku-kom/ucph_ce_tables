@@ -1,5 +1,5 @@
 {
-    "name": "university-of-copenhagen/ucph-ce-tables",
+    "name": "university-of-copenhagen/ucph-content-tables",
     "type": "typo3-cms-extension",
     "description": "Create acessible tables.",
     "homepage": "https://www.ku.dk/",
@@ -9,12 +9,12 @@
     },
     "autoload": {
         "psr-4": {
-            "UniversityOfCopenhagen\\UcphCeTables\\": "Classes/"
+            "UniversityOfCopenhagen\\UcphContentTables\\": "Classes/"
         }
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "ucph_ce_tables"
+            "extension-key": "ucph_content_tables"
         }
     }
 }

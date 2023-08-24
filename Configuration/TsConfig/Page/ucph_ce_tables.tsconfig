@@ -6,8 +6,8 @@ mod.wizards.newContentElement.wizardItems.special {
     elements {
         table {
             iconIdentifier = ucph-ce-tables-icon
-            title = LLL:EXT:ucph_ce_tables/Resources/Private/Language/locallang_be.xlf:ucph_ce_table_title
-            description = LLL:EXT:ucph_ce_tables/Resources/Private/Language/locallang_be.xlf:ucph_ce_table_desc
+            title = LLL:EXT:ucph_content_tables/Resources/Private/Language/locallang_be.xlf:ucph_ce_table_title
+            description = LLL:EXT:ucph_content_tables/Resources/Private/Language/locallang_be.xlf:ucph_ce_table_desc
             tt_content_defValues {
                 CType = table
                 // Set default table header position
